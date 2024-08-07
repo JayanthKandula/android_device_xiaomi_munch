@@ -14,7 +14,7 @@ static const variant_info_t munchin_info = {
     .sku_value = "",
 
     .brand = "POCO",
-    .device = "munchin",
+    .device = "munch",
     .marketname = "POCO F4",
     .model = "22021211RI",
     .build_fingerprint = "POCO/munch_in/munch:13/RKQ1.211001.001/V816.0.2.0.ULMMIXM:user/release-keys",
