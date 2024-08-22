@@ -9,7 +9,7 @@
 
 #include "vendor_init.h"
 
-static const variant_info_t munchin_info = {
+static const variant_info_t munch_in_info = {
     .hwc_value = "INDIA",
     .sku_value = "",
 
@@ -49,7 +49,7 @@ static const variant_info_t munch_info = {
 };
 
 static const std::vector<variant_info_t> variants = {
-    munchin_info,
+    munch_in_info,
     munch_global_info,
     munch_info,
 };

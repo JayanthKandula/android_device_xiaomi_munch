@@ -25,7 +25,7 @@ TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_munch
 TARGET_KERNEL_CONFIG += vendor/xiaomi/munch.config
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := munch,munch_global,munchin
+TARGET_OTA_ASSERT_DEVICE := munch,munch_global,munch_in
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
