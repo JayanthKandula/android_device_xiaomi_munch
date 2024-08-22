@@ -51,3 +51,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/munch/munch-vendor.mk)
+
+# Inherit from MindTheGapps
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)

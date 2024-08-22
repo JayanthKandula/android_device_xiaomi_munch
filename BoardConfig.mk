@@ -32,3 +32,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Inherit from the proprietary version
 include vendor/xiaomi/munch/BoardConfigVendor.mk
+
+# Include MindTheGapps
+-include vendor/gapps/arm64/BoardConfigVendor.mk
