@@ -54,3 +54,6 @@ $(call inherit-product, vendor/xiaomi/munch/munch-vendor.mk)
 
 # Inherit from MindTheGapps
 $(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+
+RELEASE_TYPE := LineageFE
+LINEAGE_BUILDTYPE := FE
